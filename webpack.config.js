@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle[contenthash].js',
+  publicPath: '/',
   },
   devtool: 'source-map',
   devServer: {
