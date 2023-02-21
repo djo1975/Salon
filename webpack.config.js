@@ -57,7 +57,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/assets/images', to: 'images' },
+        { from: path.resolve(__dirname, 'src/assets/images'), to: path.resolve(__dirname, 'dist/images') },
       ],
     }),
     new webpack.ProvidePlugin({
