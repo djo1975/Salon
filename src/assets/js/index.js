@@ -1,0 +1,9 @@
+import './bootstrap-progressbar.js';
+import './bootstrap.js';
+import './custom.js';
+import './jquery.counterup.js';
+import './jquery.fancybox.pack.js';
+import './jquery.mixitup.js';
+import './slick.js';
+import './waypoints.js';
+import './wow.js';

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="rs">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Kozmetički salon - Ilić - Kavitacija</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">    
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/> 
+    <!-- Progress bar  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-progressbar-3.3.4.css"/> 
+     <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Open Sans for body font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Lato for Title -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>    
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  <!-- END PRELOADER -->
+
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header -->
+  <header id="header">
+    <!-- header bottom -->
+    <div class="header-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-contact">
+              <ul>
+                <li>
+                  <div class="phone">
+                    <i class="fa fa-phone"></i>
+                    +381 XX XXX XXX XXX
+                  </div>
+                </li>
+                <li>
+                  <div class="mail">
+                    <i class="fa fa-envelope"></i>
+                    office@kozmetickisalon.rs
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-login">
+              <a class="login modal-form" data-target="#login-form" data-toggle="modal" href="#"> +381 XX XXX XXX XXX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header -->
+  
+
+  <!-- BEGIN MENU -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="index.html">Kozmeticki salon Ilić</a>  
+		 <!--  <a  href="index.html"><img src="assets/images/logo.png" alt="logo Goran-uredjenje enterijera"></a>  -->
+          <!-- IMG BASED LOGO  -->
+           <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="hidzama.html">Hidžama</a></li>
+            <li class="active"><a href="kavitacija.html">Kavitacija</a></li>
+            <li><a href="lifting-lica-radiofrekventnom-energijom.html">Lifting lica</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Masaža <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#.html">Masaža</a></li>                
+                <li><a href="#.html">Masaža</a></li>
+                <li><a href="#.html">Masaža</a></li>
+                <li><a href="#.html">Masaža</a></li>           
+              </ul>
+            </li>
+            <li><a href="o-nama.html">O nama</a></li>
+            <li><a href="galerija.html">Galerija</a></li>			
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>                     
+        </div><!--/.nav-collapse -->
+        
+      </div>     
+    </nav>
+  </section>
+  <!-- END MENU --> 
+
+  <!-- Start slider -->
+  <section id="slider">
+    <div class="main-slider">
+      <div class="single-slide">
+        <img src="assets/images/slider-3.jpg" alt="img">
+        <div class="slide-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="slide-article">
+                  <h2 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Hidžama </h2>
+                  <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.75s">spada u takozvane regulativne medicinske metode</p>
+                  <a class="read-more-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="#">Detaljnije</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="slider-img wow fadeInUp">
+                  <!-- <img src="assets/images/person1.png" alt="business man"> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single-slide">
+        <img src="assets/images/slider-2.jpg" alt="img">
+        <div class="slide-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="slide-article">
+                  <h1 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Kavitacija </h1>
+                  <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.75s">Pitaš se koliko je efikasna kavitacija za celulit? Da li je ova metoda uklanjanja celulita za tebe? </p>
+                  <a class="read-more-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="#">Detaljnije</a>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="slider-img wow fadeInUp">
+                  <!-- <img src="assets/images/person2.png" alt="business man"> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+		<div class="single-slide">
+				<img src="assets/images/slider-1.jpg" alt="img">
+			<div class="slide-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="slide-article">
+								<h1 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Lifting lica radiofrekventnom energijom</h1>
+								<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.75s">Radiofrekventna energija (RF) stimuliše produkciju novog i reorganizaciju postojećih molekula kolagena u koži, vraćajući joj čvrstinu i elastičnost. </p>
+								<a class="read-more-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="#">Detaljnije</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="slider-img wow fadeInUp">
+							<img src="assets/images/teta.png" alt=" ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 	  
+    </div>
+  </section>
+  <!-- End slider -->
+
+ 
+
+  <!-- Start about  -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-area">
+            <h2 class="title">Kavitacija</h2>
+            <span class="line"></span>
+            <p>Pitaš se koliko je efikasna kavitacija za celulit? Da li je ova metoda uklanjanja celulita za tebe? Odgovore na sva pitanja, otkrivam ti u ovom tekstu .</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="about-content">
+            <div class="row">
+              <div class="col-md-12">
+                
+               <div class="col-md-12">
+                <div class="why-choose-us">
+                  <h3>Sve o kavitaciji?</h3>
+                  <div class="panel-group why-choose-group" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            Šta je zapravo kavitacija za celulit?<span class="fa fa-minus-square"></span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                        
+                         <p> Ultrazvučna kavitacija je neinvazivan tretman koji, uz pomoć ultrazvučnih talasa, razbija celulit. Preciznije rečeno, ti ultrazvučni talasi dovode do formiranja malih balona koji se kreću u raznim smerovima u masnom tkivu. Ti balončići potom uništavaju ćelije masnog tkiva. </p>
+						 
+						 <p> Tada limfni sistem stupa na scenu. On preuzima te ostatke masnih ćelija. Delovi tih masnih ćelija se prenose u jetru gde se koriste za dobijanje energije. Međutim, neki drugi delovi razloženih masnih ćelija se izbacuju iz organizma. </p>
+						 
+						 <p> Pored toga što uklanja delove razgrađenih masnih ćelija, limfni sistem uklanja toksine koji uništavaju vezivno tkivo. Na taj način značajno smanjuje mogućnost ponovne pojave celulita. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default ">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            Kako izgleda tretman kavitacija za celulit? <span class="fa fa-plus-square"></span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                         <p>Najpre, da bi se pripremila za tretman treba da popiješ dosta vode pre, ali i nakon tretmana. Na taj način ćeš olakšati izbacivanje delove razgrađenih masnih ćelija i toksina iz organizma. </p>
+						 
+						 <p>Sam tretman započinje merenjem obima dela tela koji će biti tretiran. Potom će stručno lice prelaziti aplikatorom preko dela tela pogođenim celulitom. Na kraju tretmana, još jednom se radi merenje obima tretiranog dela.</p>
+						 
+						 <p><i>Kavitacija za celulit je bezbolna metoda. Većina ljudi koja se podvrgne ovom tretmanu tvrdi da su se osećali jako komforno tokom tretmana.</i></p>
+						 
+						 <p>Tretman traje između 20 i 90 minuta. Koliko će trajati u tvom slučaju, zavisi od veličine zone pogođene celulitom koja se tretira.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                           Koliko tretmana će ti biti potrebno?  <span class="fa fa-plus-square"></span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Tačan broj tretmana koji će te osloboditi celulita zavisi od toga koliko je težak tvoj slučaj. Naime, postoje tri nivoa težine celulita:<br/>
+•	Stepen I Ovde se radi o blažem slučaju celulita. Njegovo prisustvo ćeš primetiti tek kad pritisneš kožu. Tada ona dobija karakterističan izgled pomorandžine kore. <br/>
+•	Stepen II Nešto ozbiljniji slučaj celulita koji se karakteriše sa 5 do 9 jamica. Zbog tih plitkih jamica, zona pogođena celulitom podseća na švapski sir.<br/>
+•	Stepen III U ovom slučaju, radi se o najozbiljnijem obliku tvrdog celulita. Izgledom podseća na dušek, sa 10 ili više dubokih jamica. Ovaj stepen celulita je često vidljiv i golim okom, bez pritiska.<br/>
+</p>
+						  
+						  <p>Većina žena postigne željeni cilj nakon svega tri tretmana. Pritom, razmak između tretmana je maksimalno 2 nedelje. Dodatno, u nekim slučajevima potrebni su dodatni tretmani radi održavanja.</p>
+						  
+						  <p><i>Obično je potrebno između 6 i 10 tretmana na svakih nedelju do dve da bi se postigli rezultati. </i></p>
+						  
+						  
+                        </div>
+                      </div>
+                    </div>
+					
+					 <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                           Kavitacija za celulit rezultati<span class="fa fa-plus-square"></span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Ultrazvučna kavitacija će često dati instant rezultate. U to ćeš i sama da se uveriš, merenjem obima nakon prvog tretmana. Ljudi obično izgube između 1 i 5 cm u obimu. Svakim narednim tretmanom ćeš gubiti još više cm u obimu.
+</p>
+
+<p>Nakon nekoliko tretmana ćeš primetiti da se smanjuje volumen masnog tkiva i da je tretirana zona tela postala zategnutija. Može se čak desiti da izgubiš oko 10 cm u obimu tretiranih zona do kraja serije tretmana.
+</p>
+
+<p><i>Rezultati će biti dugotrajni pod uslovom da, nakon završetka svih tretmana kavitacije, nastaviš da se hraniš pravilno, vežbaš i koristiš anticelulit gel za celulit.</i>
+</p>
+
+<p>Međutim, ako se tokom i nakon tretmana prejedaš, konzumiraš alkohol ili ne vežbaš uopšte, masne naslage i celulit će se vratiti. 
+</p>
+
+<p>Dodatno, rezultati variraju u zavisnosti od toga koji deo tela se tretira, kakva je struktura tkiva pojedinca, godina, metabolizma, lekova i hormonskih fluktuacija.
+</p>
+
+<p>Ali, ovo nije tretman za gojaznost. Svakako će uticati na gubitak celulita i pokojeg kilograma, ali je primarno procedura za zatezanje tela. Posebno je namenjena redukciji lokalizovanih masnih naslaga koje su otporne na gubitak vežbanjem. To su najčešće masne naslage na stomaku, <b>celult<b> na zadnjici i butinama.
+</p>
+
+
+                        </div>
+                      </div>
+                    </div>
+					
+					<div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                            Kavitacija za celulit- kako je učiniti efikasnijom? <span class="fa fa-plus-square"></span>
+                          </a>
+                        </h4>
+                      </div></br>
+                      <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Da li si znala da ti možeš učiniti ovaj tretman za celulit efikasnijim? Evo kako ćeš to da učiniš:</br></br>
+•	Dnevna vežba – Serija vežbi za celulit, koje ciljaju zone pogođene celulitom od 20 minuta nakon tretmana može značajno poboljšati rezultat. Takođe, ako te muči celulit u više zona tela, možeš pokušati da pomogneš skidanje celulita plivanjem. </br>
+•	Ishrana – Unošenjem namirnica bogatih vitaminom C, kao što su citrusi i brokoli možeš značajno da utičeš na celulit. Međutim voće i povrće nisu jedina hrana koja topi celulit. Ne moraš da se odrekneš mesa, jer namirnice poput piletine i bele ribe mogu da ti pomognu da se rešiš celulita. </br>
+•	Hidratacija – Znam da se ponavljam, ali je hidratacija jako bitna. Ne samo pre i odmah nakon tretmana. Moraš piti 2 l vode dnevno kako bi olakšala izbacivanje toksina limfnim sistemom. Unosi fantastične napitke za skidanje celulita.</br>
+•	Limfna drenaža – Još jedan način da postakneš izbacivanje masti i toksina putem limfe je uz pomoć četkanja. Ukoliko posebno namenjenom četkom prelaziš preko zone  pogođene celulitom u smeru ka srcu. </br>
+•	Anticelulit preparat – Još bolje rezultate u eliminaciji delova razgrađenih masti i toksina ćeš dobiti ako koristiš anticelulit preparate. Međutim, šta izabrati u moru preparata koji obećavaju čudo? Ne brini, pomoći ću ti da sa lakoćom odabereš. Najpre, treba ti gel, ne krema za celulit. Gel ima laganu teksturu zbog koje lakše prodire u dublje slojeve kože. Dodatno, tvoj anticelulit gel bi trebalo prevashodno da sadrži sastojke koji jačaju vezivno tkivo i potpomažu izbacivanje toksina. Samo neki od tih sastojaka su ulje bršljana, metanol, arnika i vitamin C.
+</p>
+						  
+						  
+                        </div>
+                      </div>
+                    </div>
+					
+					<div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                            Kavitacija za celulit prednosti <span class="fa fa-plus-square"></span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>Ultrazvučna kavitacija za celulit je sjajna metoda koja će ti pomoći da ukloniš celulit, ali nije bez mana. Svakako moraš znati i prednosti i mane, kako bi mogla da odlučiš da li je ova metoda uklanjanja celulita za tebe.</br>
+•	Bezbolna je metoda</br>
+•	Oporavak nakon tretmana traje minimalno i neželjeni efekti su retki.</br>
+•	Daleko je manje invazivna od liposukcije i pored toga što moraš da uradiš nekoliko tretmana kavitacije pre nego što vidiš rezultate.
+</p>
+						  
+                        </div>
+                      </div>
+					  </div>
+					  
+					  <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                            Koje su mane? <span class="fa fa-plus-square"></span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <p>•	Većina ljudi mora da prođe 10-12 nedeljnih tretmana . </br>
+•	Moraćeš da čekaš do 3 meseca da se tvoje telo otarasi svih ostataka masti. </br>
+•	Kao i druge nehirurške opcije uklanjanja masnih naslaga, kavitacija za celulit ne može služiti za uklanjanje viška kilograma. Da bi bila dobar kanditat za ovu proceduru, ne smeš biti gojazna. Ova tehnika služi samo za uklanjanje upornih masnih naslaga, onih koje nisi uspela da skineš pravilnom ishranom i vežbom.</br></br>
+Pored prednosti i mana koja sam pobrojala, još jedna stvar treba da utiče na tvoju odluku, a to su kontraindikacije. Ovo su slučajevi kada nipošto ne smeš da koristiš kavitaciju za celulit:</br></br>
+•	Muče te bolesti srca.</br>
+•	Imaš pejsmejker .</br>
+•	Trudna si ili si se porodila pre manje od 6 meseci.</br>
+•	Još uvek dojiš.</br>
+•	Patiš od akutne ili hronične bubrežne insuficijencije i insuficijencije jetre.</br>
+•	Žučni kamenac i bubrežni kamenac će te takođe sprečiti da se kavitacijom rešiš celulita.</br>
+•	Patiš od akutnih ili hroničnih infekcija.</br>
+•	Ako u zoni kojoj si planirala da tretiraš imaš rane, ožiljke ili tetovaže.</br>
+•	Patiš od dijabetesa.</br>
+•	Prisustvo metala u zoni kože koju si planirala da tretiraš.</br>
+•	Patiš od pupčane ili preponske kile.</br>
+•	Patiš od autoimune, hematološke, onkološke bolesti.</br></br>
+Takođe, izuzetno retko, mogu se javiti neželjeni efekti. Nekada, nakon tretmana, na tretiranom području se može javiti crvenilo. Takođe, nakon tretmana se može javiti pojačana žeđ i mučnina, što se rešava ispijanjem vode. U svakom slučaju, svi ovi neželjeni efekti će nestati nakon par sati.
+
+</p>
+						  
+						  
+						  
+                        </div>
+                      </div>
+					  
+                    </div> 
+                  </div>
+                </div>
+              </div>                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about -->
+
+ 
+ 
+ 
+
+  
+
+
+  
+  
+
+  
+  
+  
+
+  <!-- Start subscribe us -->
+  <section id="subscribe">
+    <div class="subscribe-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="subscribe-area">
+              <h2 class="wow fadeInUp">Prijavite se na Newsletter</h2>
+              <form action="" class="subscrib-form wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                <input type="text" placeholder="Vas E-mail..">
+                <button class="subscribe-btn" type="submit">Posalji</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End subscribe us -->
+
+  <!-- Start footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>Designed by <a href="http://www.anavi.in.rs/">Anavi web & grficki dizajn</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-right">
+            <a href="index.html"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>    
+  <!-- mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+ <!-- counter -->
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.js"></script>
+  <!-- Wow animation -->
+  <script type="text/javascript" src="assets/js/wow.js"></script> 
+  <!-- progress bar   -->
+  <script type="text/javascript" src="assets/js/bootstrap-progressbar.js"></script>  
+  
+ 
+  <!-- Custom js -->
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+  
+  </body>
+</html>
